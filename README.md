@@ -3,6 +3,7 @@
 # FATC0RK's BypassNRO Script
 
 From the OOBE Screen press Shift + F10
+**MAKE SURE TO CLICK ON THE CMD WINDOW**
 
 ```
 curl -L https://raw.githubusercontent.com/FATC0RK/BYPASSNRO/refs/heads/main/bypass.cmd -o skip.cmd
