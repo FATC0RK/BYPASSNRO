@@ -3,6 +3,7 @@
 # FATC0RK's BypassNRO Script
 
 From the OOBE Screen press Shift + F10
+
 **MAKE SURE TO CLICK ON THE CMD WINDOW**
 
 ```
@@ -19,16 +20,20 @@ skip.cmd
 -   `ProtectYourPC = 3` (minimal telemetry option shown/selected)
 
 **User account**
+
 -   Creates **one** local account: `USER`, in the Administrators group, blank password
 -   Auto-logs in as `USER` for the first login only
 
 **AppX packages removed** 
+
 3D Viewer, Bing Search, Camera, Clipchamp, Copilot, Dev Home, Family Safety, Feedback Hub, Game Assist, Get Help, Get Started, Mail & Calendar, Maps, Mixed Reality Portal, News, Notepad (Store version), Office Hub, OneNote, Outlook for Windows, Paint 3D, People, Photos, Power Automate Desktop, Quick Assist, Skype, Solitaire Collection, Teams/MSTeams, To Do, Voice Recorder, Wallet, Weather, Xbox apps (all variants), Zune Music, Zune Video _(Sticky Notes kept for stylus/Ink Workspace)_
 
 **Windows capabilities removed** 
+
 Fax & Scan, Internet Explorer, OneSync, OpenSSH Client, PowerShell ISE, Quick Assist, Speech, Text-to-Speech, Steps Recorder, Windows Media Player, WordPad _(Handwriting, MathRecognizer, and all three Windows Hello Face capabilities kept)_
 
 **Optional features removed** 
+
 Media Playback, PowerShell v2, Remote Desktop Connection client, Recall
 
 **Registry / system tweaks — Specialize phase**
@@ -53,6 +58,7 @@ Media Playback, PowerShell v2, Remote Desktop Connection client, Recall
 -   Schedules `UserOnce.ps1` via RunOnce for each new user's first login
 
 **Per-user first login** (`UserOnce.ps1`)
+
 -   Disables taskbar search box
 -   Restarts Explorer to apply it
 
